@@ -1,0 +1,15 @@
+[package]
+name = "missile-evasion"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+stellarust-core = { version = "=0.2.5", registry = "navierai" }
+stellarust-gnc = { version = "=0.2.5", registry = "navierai" }
+stellarust-sim = { version = "=0.2.5", registry = "navierai" }
+stellarust-vehicles = { version = "=0.2.5", registry = "navierai" }
+stellarust-sensors = { version = "=0.2.5", registry = "navierai" }
+stellarust-output = { version = "=0.2.5", registry = "navierai", features = ["bundle"] }
+
+nalgebra = "0.33"
+libm = "0.2"

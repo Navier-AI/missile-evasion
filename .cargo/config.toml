@@ -1,0 +1,3 @@
+[registries.navierai]
+index = "sparse+https://cargo.cloudsmith.io/navierai/stellarust/"
+credential-provider = "cargo:token"
