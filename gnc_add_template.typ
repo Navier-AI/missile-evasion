@@ -262,7 +262,7 @@ $ tilde(bold(omega)) = bold(omega)_"true" + bold(b)_omega + bold(nu)_omega $
   fill: (col, row) => if row == 0 { luma(220) } else { white },
   [*Metric*], [*Mean*], [*3σ*], [*Requirement*],
   [Position error (m)],  [[AUTO]], [[AUTO]], [[MANUAL]],
-  [Velocity error (m/s)],[AUTO]],  [[AUTO]], [[MANUAL]],
+  [Velocity error (m/s)],[[AUTO]],  [[AUTO]], [[MANUAL]],
   [Attitude error (deg)],[[AUTO]], [[AUTO]], [[MANUAL]],
 )
 
